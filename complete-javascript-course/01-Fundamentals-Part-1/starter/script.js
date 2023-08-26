@@ -53,6 +53,8 @@ console.log(typeof null);
 
 */
 
+
+/*
 let age = 30;
 age = 31;
 
@@ -66,3 +68,26 @@ job = "teacher";
 
 lastName = "YAR"
 console.log(lastName);
+*/
+
+
+const now = 2037;
+const ageFatih = now - 1987;
+const ageJonas = now - 1991;
+console.log(ageFatih, ageJonas);
+
+console.log(ageFatih * 2, ageFatih / 2, 2 ** 3);
+// 2**3 means 2 to the power of 3 = 2 * 2 * 2
+
+
+const firstName = "Fatih";
+const lastName = "Yar";
+console.log(firstName + " " + lastName);
+
+let x = 10 + 5; // 15
+x += 10; // x = x + 15
+x *= 4; // x = x * 4
+x++; // x = x + 1
+x--;
+x--;
+console.log(x);
