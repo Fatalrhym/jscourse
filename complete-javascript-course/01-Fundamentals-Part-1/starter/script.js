@@ -134,7 +134,7 @@ BONUS: Create a boolean variable markHigherBMI containing information about whet
 TEST DATA: Marks weighs 78 kg and is 1.69 m tall. John weighs 92 kg and is 1.95 m tall.*/
 
 /*SOLUTION
-Write your code below. Good luck! 🙂 
+Write your code below. Good luck! 🙂
 
 const massMark = 78
 const heightMark = 169
@@ -218,4 +218,57 @@ if(BMIMark>BMIJohn){
     console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`)
 }
 */
+
+/*
+// "type convertion" and coercion
+
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(String(23), 23);
+
+// type coercion
+
+console.log("I am " + 23 + " years old");
+console.log("I am " + String(23) + " years old"); //same
+console.log("23" - "10" - 3);
+console.log("23" + "10" + 3);
+console.log("23" * "2");
+
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
+*/
+
+/*
+// Truthy and Falsy Values
+
+// 5 falsy values: 0, "", undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Fatih"));
+console.log(Boolean({}));
+
+const money = 0; //Falsy
+if (money) {
+    console.log("Don't spend it all:)")
+} else {
+    console.log("You should get a job!")
+}
+
+let height; //undefined(falsy)
+if (height) {
+    console.log("YAY Height is defined")
+} else {
+    console.log("Height is UNDEFINED")
+}
+*/
+
+
+//Equality Operators
+const age = "18";
+if (age === 18) console.log("You just became an adult(strict)")
+if (age == 18) console.log("You just became an adult(loose)")
 
